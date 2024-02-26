@@ -45,3 +45,7 @@ Workflow differences: In the Dictator and Liutenants workflow, each change goes 
 
 Large Team Benefits: With the Dictator and Lieutenants workflow, the Dictator can keep version conflicts to a minimum. By enforcing all of the pushes, the blessed repository remains consistent, making it easy for a developer to add their changes without accidentally making another developer's changes outdated.
 
+Github account created ~4 years ago
+
+Github tutorials reviewed today, 2/25/24
+
