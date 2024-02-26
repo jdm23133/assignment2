@@ -1,0 +1,13 @@
+Owner@DESKTOP-0CL7M5B MINGW64 ~/Desktop/assignment2 (master)
+$ git commit -m "Reperforming commit"
+[master 81dca1c] Reperforming commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git push
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com': jdm23133
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://jdm23133@github.com':
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/jdm23133/assignment2.git/'
