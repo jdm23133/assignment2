@@ -1,3 +1,5 @@
+Console Output:
+
 Owner@DESKTOP-0CL7M5B MINGW64 ~/Desktop/assignment2 (master)
 $ git commit -m "Reperforming commit"
 [master 81dca1c] Reperforming commit
@@ -11,3 +13,35 @@ Password for 'https://jdm23133@github.com':
 remote: Support for password authentication was removed on August 13, 2021.
 remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
 fatal: Authentication failed for 'https://github.com/jdm23133/assignment2.git/'
+
+Surprisingly, the changes pushed successfully in spite of the authentication issues!
+
+Number of commits: 12 (got this with git rev-list --count --all)
+
+Last modification of README.md: 
+$ git log README.md
+commit ed21595652fc7c3467fc245c77bf15a8314e8749
+Author: Rusta23133 <jm19bt@fsu.edu>
+Date:   Sun Feb 25 19:46:56 2024 -0500
+
+    Improving Commit Comments
+
+    Updated information files
+
+    The README has been updated to describe the current state of the repository.
+
+    Repository owner information added to README.md
+
+Why branches are used: By using branches early and often, it is easy to track which series of commits was related to a certain feature. Plus, in corporate/large team settings, this allows the main branch to implement enforcement of pull requests without requiring such a request for a developer to progress a branch.
+
+Difference between git commands: git status showcases the status of the branch you are in, including which commits are staged/unstaged, and whether or not your local branch is up-to-date with the remote branch. Meanwhile, git log showcases information about individual commits, including when they were made and what the commit messages were.
+
+Which commands would: git log --follow Vehicle.h
+git log --grep="file"
+
+OOP: Inheritance allows a class to inherit the properties and methods of a parent or base class. Polymorphism allows a variable, object, or function to take on multiple forms. Encapsulation involves bundling related data and the methods used to work with that data into one unit.
+
+Workflow differences: In the Dictator and Liutenants workflow, each change goes through multiple stages of approval before ultimately being pushed by one Dictator. This is a more limited version of the Integration Workflow, where multiple people can push changes. Furthermore, the blessed repository is the only repo in Dictator and Lieutenants workflow; meanwhile, each developer has their own public and private repo in Integration.
+
+Large Team Benefits: With the Dictator and Lieutenants workflow, the Dictator can keep version conflicts to a minimum. By enforcing all of the pushes, the blessed repository remains consistent, making it easy for a developer to add their changes without accidentally making another developer's changes outdated.
+
